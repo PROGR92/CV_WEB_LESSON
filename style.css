@@ -14,11 +14,8 @@ body
 {
     width: 960px;
     margin: 20px;
-}
-.square
-{
-    width: 500px;
-    float: left; 
+    font-size: 20px;
+    text-align: center;
 }
 #logo
 {
@@ -26,17 +23,23 @@ body
     font-family: 'Josefin Sans', sans-serif;
     font-size: 70px;
     width: 600px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: justify;
 }
 #clock
 {
     float: left;
     font-size: 70px;
     font-family: 'Josefin Sans', sans-serif;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: justify;
 }
+.square
+{
+    width: 500px;
+    float: left; 
+}
+
 .tile1
 {
     margin: 10px;
@@ -72,35 +75,43 @@ body
     background-color: #ee5a52;
     text-align: center;
 }
-.lin
+.tile5
 {
     margin: 10px;
-    width: 105px;
-    height: 142px;
-    background-color: #ee5a52;
+    width: 480px;
+    height: 304px;
+    background-color: #666666;
     text-align: center;
 }
-.fb
+.lin
 {
+    float: left;
     margin: 10px;
     width: 105px;
     height: 142px;
-    background-color: #ee5a52;
-    text-align: center;
+    background-color: #0a66c2;
+}
+.yt
+{
+    float: left;
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color: #c4302b;
 }
 .phone
 {
+    float: left;
     margin: 10px;
     width: 105px;
     height: 142px;
-    background-color: #ee5a52;
-    text-align: center;
+    background-color: #ff6900;
 }
 .tile9
 {
+    float: left;
     margin: 10px;
     width: 105px;
     height: 142px;
-    background-color: #ee5a52;
-    text-align: center;
+    background-color: #000000;
 }
