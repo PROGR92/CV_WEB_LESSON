@@ -55,11 +55,11 @@
 }
 
 .icon-mail:before { content: '\e800'; } /* '' */
-.icon-laptop:before { content: '\e801'; } /* '' */
-.icon-gmail:before { content: '\e802'; } /* '' */
+.icon-laptop:before { content: '\e801'; font-size: 70px; margin-top: 20px;margin-right: 30px;} /* '' */
+.icon-gmail:before { content: '\e802';font-size: 75px; margin-top: 20px; margin-right: 30px } /* '' */
 .icon-phone:before { content: '\e803'; font-size: 75px; margin-top: 35px;} /* '' */
 .icon-github-circled-alt2:before { content: '\f056'; font-size: 75px; margin-top: 35px;} /* '' */
 .icon-linkedin:before { content: '\f05c'; font-size: 75px; margin-top: 35px;} /* '' */
-.icon-graduation-cap:before { content: '\f19d'; } /* '' */
-.icon-user-secret:before { content: '\f21b'; } /* '' */
+.icon-graduation-cap:before { content: '\f19d';font-size: 75px; margin-top: 20px; } /* '' */
+.icon-user-secret:before { content: '\f21b'; font-size: 75px; margin-top: 20px;} /* '' */
 .icon-facebook-squared:before { content: '\f30e'; font-size: 75px; margin-top: 35px; } /* '' */
