@@ -147,3 +147,18 @@ body
 {
     background-color: #000000;
 }
+/*html4 while div sholdnt be inside href */
+a.taillink
+{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    width: 230px;
+    height: 142px;
+}
+/*html5 while div may be in href*/
+a.taillinkhtml5
+{
+    color: #ffffff;
+    text-decoration: none;
+}
