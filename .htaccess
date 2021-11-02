@@ -1,5 +1,5 @@
 ### PROTECT FILES ###
-<FilesMatch "\.(htaccess(htpasswd|ini|fla|psd|log|sh)$">
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
 Order Allow,Deny
 Deny from all
 </FilesMatch>
@@ -8,5 +8,5 @@ RewriteEngine on
 RewriteRule zatrudnij-programiste-webowego index.html
 RewriteRule kim-jestem kimjestem.html
 RewriteRule oferta-tworzenie-stron-www oferta.html
-RewriteRule cv-programista-php-javascript-robotyk cv.html
+RewriteRule cv-programista-php-javascript cv.html
 RewriteRule kontakt-programista-php kontakt.html
