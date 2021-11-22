@@ -25,6 +25,11 @@ body
     margin-top: 20px;
     text-align: justify;
 }
+#logo:hover
+{
+    cursor: pointer;
+    color: #dddddd;
+}
 #clock
 {
     float: left;
@@ -52,6 +57,7 @@ body
 .tile1:hover
 {
     background-color: #2084c2;
+    cursor: pointer;
 }
 .tile2
 {
@@ -64,6 +70,7 @@ body
 }
 .tile2:hover
 {
+    cursor: pointer;
     background-color: #555555;
 }
 .tile3
@@ -78,6 +85,7 @@ body
 .tile3:hover
 {
     background-color: #82b627;
+    cursor: pointer;
 }
 .tile4
 {
@@ -90,7 +98,8 @@ body
     padding: 30px;
     line-height: 150%;
 }
-.tile5
+
+#tile5
 {
     margin: 10px;
     width: 420px;
@@ -148,8 +157,4 @@ body
     background-color: #000000;
 }
 
-#first_id
-{
-    text-decoration: none;
-    color: white;
-}
+
